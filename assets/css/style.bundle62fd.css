@@ -71619,3 +71619,33 @@ body{
         left:70px
     }
 }
+
+
+a.hover-yellow:hover span i {
+    color: #FFAF00 !important;
+}
+
+.red-bg, .red-bg div h3 {
+    background-color: #B11301 !important;
+    
+
+}
+
+
+.red-bg div, .red-bg div h3 {
+    color: #FFFFFF !important;
+}
+
+.red-bg .card-title:after {
+    color: #FFFFFF !important;
+}
+
+.mr-0, .mr-0 .checkbox {
+margin-right: 0px !important;
+}
+
+
+
+ .float-start {
+    float: left;
+ }
