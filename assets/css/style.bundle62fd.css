@@ -39797,8 +39797,8 @@ i{
     background-color:#FCAF17
 }
 .card.card-custom{
-    -webkit-box-shadow:0 0 30px 0 rgba(82,63,105,.05);
-    box-shadow:0 0 30px 0 rgba(82,63,105,.05);
+/*    -webkit-box-shadow:0 0 30px 0 rgba(82,63,105,.05);
+    box-shadow:0 0 30px 0 rgba(82,63,105,.05);*/
     border:0
 }
 .card.card-custom>.card-header{
@@ -71631,12 +71631,19 @@ a.hover-yellow:hover span i {
 
 }
 
+.blue-bg, .blue-bg div h3 {
+    background-color: #0147B1 !important;
+    
 
-.red-bg div, .red-bg div h3 {
+}
+
+.red-bg div, .red-bg div h3, 
+.blue-bg div, .blue-bg div h3 {
     color: #FFFFFF !important;
 }
 
-.red-bg .card-title:after {
+.red-bg .card-title:after,
+ .blue-bg .card-title:after{
     color: #FFFFFF !important;
 }
 
@@ -71648,4 +71655,11 @@ margin-right: 0px !important;
 
  .float-start {
     float: left;
+ }
+
+ .input-bottom-line {
+    outline: 0;
+    border-width: 0 0 1px 0;
+    border-color: #333333;
+    border-radius: 0px !important;
  }
