@@ -71663,6 +71663,10 @@ margin-right: 0px !important;
     float: left;
  }
 
+  .float-end {
+    float: right;
+ }
+
  .input-bottom-line {
     outline: 0;
     border-width: 0 0 1px 0;
@@ -71730,3 +71734,4 @@ margin-right: 0px !important;
 .cursor-pointer{
   cursor: pointer;
 }
+
