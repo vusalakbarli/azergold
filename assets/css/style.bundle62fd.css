@@ -71625,67 +71625,46 @@ body{
         left:70px
     }
 }
-
-
 a.hover-yellow:hover span i, li.menu-item-open a span i, li.menu-item-active a span i, li.menu-item:hover a span i {
     color: #FFAF00 !important;
 }
-
 .red-bg, .red-bg div h3 {
     background-color: #F07355 !important;
-    
 
 }
-
 .blue-bg, .blue-bg div h3 {
     background-color: #42A2D5 !important;
-    
 
 }
-
 .red-bg div, .red-bg div h3, 
 .blue-bg div, .blue-bg div h3 {
     color: #FFFFFF !important;
 }
-
 .red-bg .card-title:after,
  .blue-bg .card-title:after{
     color: #FFFFFF !important;
 }
-
 .mr-0, .mr-0 .checkbox {
 margin-right: 0px !important;
 }
-
-
-
- .float-start {
+.float-start {
     float: left;
  }
-
-  .float-end {
+.float-end {
     float: right;
  }
-
- .input-bottom-line {
+.input-bottom-line {
     outline: 0;
     border-width: 0 0 1px 0;
     border-color: #333333;
     border-radius: 0px !important;
  }
-
-
- .menu-item-open {
+.menu-item-open {
 
  }
-
-
 .menu-item:hover .menu-submenu {
     display: block;
  }
-
-
-
 ::-webkit-file-upload-button, label.file-upload {
   background: #b5b5c3;
   color: #ffffff;
@@ -71694,43 +71673,33 @@ margin-right: 0px !important;
   cursor: pointer;
   border-radius: .42rem;
 }
-
-
 .file-upload i {
     color: #ffffff;
 }
-
-
 .bordered {
     vertical-align: middle;
     border: 1px solid #ebedf3;
 }
-
 .l-bordered {
     vertical-align: middle;
     border-left: 1px solid #ebedf3;
 }
-
 .r-bordered {
     vertical-align: middle;
     border-right: 1px solid #ebedf3;
 }
 
-
 .t-bordered {
     vertical-align: middle;
     border-top: 1px solid #ebedf3;
 }
-
 .b-bordered {
     vertical-align: middle;
     border-bottom: 1px solid #ebedf3;
 }
-
 .no-bordered {
     border:none !important;
 }
-
 .cursor-pointer{
   cursor: pointer;
 }
