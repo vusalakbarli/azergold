@@ -4718,7 +4718,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     padding:2.25rem
 }
 .card-title{
-    margin-bottom:2rem
+    margin: 5px;
 }
 .card-subtitle{
     margin-top:-1rem;
@@ -4743,7 +4743,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     border-radius:calc(.42rem - 1px) calc(.42rem - 1px) 0 0
 }
 .card-footer{
-    padding:2rem 2.25rem;
+    padding:5px 10px;
     background-color:#fff;
     border-top:1px solid #ebedf3
 }
@@ -6517,7 +6517,7 @@ a.close.disabled{
     vertical-align:text-top!important
 }
 .bg-primary{
-    background-color:#FCAF17!important
+    background-color:#3699FF!important
 }
 a.bg-primary:focus,a.bg-primary:hover,button.bg-primary:focus,button.bg-primary:hover{
     background-color:#037fff!important
@@ -39814,7 +39814,7 @@ i{
     align-items:stretch;
     -ms-flex-wrap:wrap;
     flex-wrap:wrap;
-    min-height:70px;
+    min-height:20px;
     padding-top:0;
     padding-bottom:0;
     background-color:transparent
@@ -39854,12 +39854,12 @@ i{
     -webkit-transition:fill .3s ease;
     transition:fill .3s ease
 }
-.card.card-custom>.card-header .card-title,.card.card-custom>.card-header .card-title .card-label{
+.card.card-custom>.card-header .card-title,.card.card-custom>.card-header .card-title .card-label, .card-footer .card-title .card-label{
     font-weight:500;
-    font-size:1.275rem;
+    font-size:14px;
     color:#181c32
 }
-.card.card-custom>.card-header .card-title .card-label{
+.card.card-custom>.card-header .card-title .card-label, .card-footer .card-title .card-label{
     margin:0 .75rem 0 0;
     -ms-flex-wrap:wrap;
     flex-wrap:wrap
@@ -51573,9 +51573,9 @@ code{
     background-color:#f3f6f9
 }
 .accordion .card .card-header .card-title{
-    padding:1rem 1.25rem;
+    padding:5px 10px;
     margin:0;
-    font-size:1.15rem;
+    font-size:12px;
     font-weight:500;
     color:#FCAF17;
     display:-webkit-box;
@@ -65675,7 +65675,7 @@ code{
     font-size:.875em!important
 }
 .fa-1x{
-    font-size:1em!important
+    font-size:1.15em!important
 }
 .fa-2x{
     font-size:2em!important
@@ -66864,7 +66864,7 @@ code{
     box-shadow:0 3px 6px -3px #FCAF17
 }
 .noUi-target.nouislider.nouislider-bg-primary{
-    background:#FCAF17
+    background:#6FB7FF
 }
 .noUi-target.nouislider.nouislider-bg-light-primary{
     background:#F2F2F2
@@ -71632,13 +71632,13 @@ a.hover-yellow:hover span i, li.menu-item-open a span i, li.menu-item-active a s
 }
 
 .red-bg, .red-bg div h3 {
-    background-color: #B11301 !important;
+    background-color: #F07355 !important;
     
 
 }
 
 .blue-bg, .blue-bg div h3 {
-    background-color: #0147B1 !important;
+    background-color: #42A2D5 !important;
     
 
 }

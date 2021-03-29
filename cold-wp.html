@@ -399,7 +399,7 @@
                         <div class="dropdown">
                            <!--begin::Toggle-->
                            <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px">
-                              <div class="btn btn-icon btn-clean btn-dropdown btn-lg mr-1 pulse pulse-primary">
+                              <div class="btn btn-icon btn-clean ropdown btn-lg mr-1 pulse pulse-primary">
                                  <span class="svg-icon svg-icon-xl svg-icon-primary">
                                     <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Code/Compiling.svg-->
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -879,8 +879,8 @@
                            <div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg">
                               <!--begin:Header-->
                               <div class="d-flex flex-column flex-center py-10 bgi-size-cover bgi-no-repeat rounded-top" style="background-image: url(assets/media/misc/bg-1.jpg)">
-                                 <h4 class="text-white font-weight-bold">Quick Actions</h4>
-                                 <span class="btn btn-success btn-sm font-weight-bold font-size-sm mt-2">23 tasks pending</span>
+                                 <h4 class="text-white font-weight-bold">Seçilmişlər</h4>
+                                 <span class="btn btn-success btn-sm font-weight-bold font-size-sm mt-2">23 tapşırıq gözləyir</span>
                               </div>
                               <!--end:Header-->
                               <!--begin:Nav-->
@@ -937,8 +937,8 @@
                                           </svg>
                                           <!--end::Svg Icon-->
                                        </span>
-                                       <span class="d-block text-dark-75 font-weight-bold font-size-h6 mt-2 mb-1">Projects</span>
-                                       <span class="d-block text-dark-50 font-size-lg">Pending Tasks</span>
+                                       <span class="d-block text-dark-75 font-weight-bold font-size-h6 mt-2 mb-1">Proyektlər</span>
+                                       <span class="d-block text-dark-50 font-size-lg">Gözlənilən Tapşırıqlar</span>
                                     </a>
                                  </div>
                                  <!--end:Item-->
@@ -975,10 +975,10 @@
                         <!--begin::User-->
                         <div class="topbar-item">
                            <div class="btn btn-icon btn-icon-mobile w-auto btn-clean d-flex align-items-center btn-lg px-2" id="kt_quick_user_toggle">
-                              <span class="text-muted font-weight-bold font-size-base d-none d-md-inline mr-1">Hi,</span>
-                              <span class="text-dark-50 font-weight-bolder font-size-base d-none d-md-inline mr-3">John</span>
+                              <span class="text-muted font-weight-bold font-size-base d-none d-md-inline mr-1">Salam,</span>
+                              <span class="text-dark-50 font-weight-bolder font-size-base d-none d-md-inline mr-3">Vüqar</span>
                               <span class="symbol symbol-lg-35 symbol-25 symbol-light-success">
-                              <span class="symbol-label font-size-h5 font-weight-bold">J</span>
+                              <span class="symbol-label font-size-h5 font-weight-bold">V</span>
                               </span>
                            </div>
                         </div>
@@ -1141,10 +1141,10 @@
                                     <div class="card-title">
                                        <h3 class="card-label">SOYUQ İŞLƏR ÜÇÜN İCAZƏ VƏRƏQƏSİ</h3>                                       
                                     </div>
-                                    <div class="col-md-6 mt-5 float-end">
-                                       <button type="button" class="btn btn-warning float-end"><i class="fas fa-pen"></i> Redaktə et</button>  
-                                       <button type="button" class="btn btn-secondary float-end mr-5" ><i class="fa fa-plus"></i> Yeni sənəd</button>  
-                                       <button type="button" class="btn btn-success float-end mr-5" ><i class="fas fa-check"></i> Saxla</button>  
+                                    <div class="col-md-6 m-2 float-end">
+                                       <button type="button" class="btn btn-warning btn-sm float-end"><i class="fas fa-pen"></i> Redaktə et</button>  
+                                       <button type="button" class="btn btn-secondary btn-sm float-end mr-2" ><i class="fa fa-plus"></i> Yeni sənəd</button>  
+                                       <button type="button" class="btn btn-success btn-sm float-end mr-2" ><i class="fas fa-check"></i> Saxla</button>  
                                     </div>
                                  </div>
                                  <!-- begin::card-body   -->
@@ -1196,9 +1196,8 @@
 
                                                          <label  class="col-2 col-form-label">İcazəni Tələb Edən</label>
                                                          <div class="col-4">
-                                                            <select class="form-control selectpicker" data-size="7" data-live-search="true" value="0" type="text">
-                                                            <option value="0"> </option>
-                                                            <option value="1" disabled="">Vüqar Məmmədov</option>
+                                                            <select class="form-control selectpicker" data-size="7" data-live-search="true" type="text">
+                                                            <option value="1" selected="selected">Vüqar Məmmədov</option>
                                                             <option value="2">Araz Bağırov</option>
                                                             <option value="3">Səma İbrahimova</option>
                                                             <option value="4">Nurlan Məmmədov</option>
@@ -1747,71 +1746,114 @@
                                        <!-- begin::5 -->
                                        <div class="card">
                                           <div class="card-header blue-bg">
-                                             <div class="card-title" data-toggle="collapse" data-target="#collapse5">5. İşə icazənin verilməsi</div>
+                                             <div class="card-title collapsed" data-toggle="collapse" data-target="#collapse5">5. İşə icazənin verilməsi</div>
                                           </div>
-                                          <div id="collapse5" class="collapse" data-parent="#accordion1">
-                                             <div class="card-body">
-                                                <div class="col-12" >
-                                                <h3 class="m-0" >İcazəni alan: İş icraçısı və ya məsul şəxs</h3>
-                                                <p>(Mən iş icraçısı və ya məsul şəxs qeyd edilən təhlükə və təhlükələrə qarşı ümumi qabaqlayıcı tədbirləri başa düşüb və həyata keçirmişəm. İş icra edildiyi müddətdə təühlükəsizlik tədbirlətini qoruyub saxlayacağam.)</p>
-                                                </div>
-                                                <div class="col-12">
-                                                   <div class="form-group row">
-                                                      <label  class="col-1 col-form-label">Ad, Soyad</label>
-                                                      <div class="col-5">
-                                                         <input class="form-control input-bottom-line" type="text" value="" />
-                                                      </div>
+                                             <div id="collapse5" class="collapse" data-parent="#accordion1">
+                                                <div class="card-body">
+                                                   <div class="col-12" >
+                                                   <h3 class="m-0" >İcazəni alan: İş icraçısı və ya məsul şəxs</h3>
+                                                   <p>(Mən iş icraçısı və ya məsul şəxs qeyd edilən təhlükə və təhlükələrə qarşı ümumi qabaqlayıcı tədbirləri başa düşüb və həyata keçirmişəm. İş icra edildiyi müddətdə təühlükəsizlik tədbirlətini qoruyub saxlayacağam.)</p>
+                                                   </div>
+                                                   <div class="col-12">
+                                                      <div class="form-group row">
+                                                         <label  class="col-1 col-form-label mr-0">Ad, Soyad</label>
+                                                         <div class="col-3">
+                                                            <select class="form-control selectpicker" data-size="7" data-live-search="true" value="2" type="text">
+                                                               <option value="1" selected="selected">Vüqar Məmmədov</option>
+                                                               <option value="2" selected="selected">Araz Bağırov</option>
+                                                               <option value="3">Səma İbrahimova</option>
+                                                               <option value="4">Nurlan Məmmədov</option>
+                                                              </select>
+                                                         </div>
 
-                                                      <label  class="col-1 col-form-label">İmza</label>
-                                                      <div class="col-5">
-                                                         <input class="form-control input-bottom-line" type="text" readonly="readonly" value="" />
+                                                         <label  class="col-1 col-form-label mr-0">İmza</label>
+                                                         <div class="col-7">
+                                                            <div class="col-2">
+                                                               <input class="form-control cursor-pointer" disabled="disabled" type="checkbox" checked="checked" value="" />
+                                                            </div>
+                                                             <div class="col-6">
+                                                               <input class="form-control" disabled="disabled" type="text" value="Araz Bağırov" />
+                                                             </div>
+                                                             <div class="col-4">
+                                                                <input class="form-control" type="datetime-local" disabled="disabled" value="2021-03-19T13:45:00" id="example-datetime-local-input">
+                                                             </div>
+                                                             
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="col-12" ><hr></div>
+
+                                                <div class="card-body">
+                                                   <div class="col-12" >
+                                                   <h3>İcazə verən: Menecer və ya onu əvəz edən şəxs</h3>
+                                                   <p>(Mən Menecer və ya onu əvəz edən şçəxs təsdiq edirəm ki, bütün təhlükələr müəyyən olunub və bütün təyin edilmiş qabaqlayıcı tədbirlər həyata keçirilmişdir. İndi bu İşə icazə vərəqsi ilə tələb olunan işi təhlükəsiz icra etmək olar.)</p>
+                                                   </div>
+                                                   <div class="col-12">
+                                                      <div class="form-group row">
+                                                         <label  class="col-1 col-form-label mr-0">Ad, Soyad</label>
+                                                         <div class="col-3">
+                                                            <select class="form-control selectpicker" data-size="7" data-live-search="true" value="4" type="text">
+                                                               <option value="1">Vüqar Məmmədov</option>
+                                                               <option value="2">Araz Bağırov</option>
+                                                               <option value="3">Səma İbrahimova</option>
+                                                               <option value="4" selected="selected">Nurlan Məmmədov</option>
+                                                              </select>
+                                                         </div>
+
+                                                         <label  class="col-1 col-form-label mr-0">İmza</label>
+                                                         <div class="col-7">
+                                                            <div class="col-2">
+                                                               <input class="form-control cursor-pointer" disabled="disabled" type="checkbox" checked="checked" value="" />
+                                                            </div>
+                                                             <div class="col-6">
+                                                               <input class="form-control" disabled="disabled" type="text" value="Nurlan Məmmədov" />
+                                                             </div>
+                                                             <div class="col-4">
+                                                                <input class="form-control" type="datetime-local" disabled="disabled" value="2021-03-19T13:45:00" id="example-datetime-local-input">
+                                                             </div>
+                                                             
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="col-12" ><hr></div>
+                                                
+
+                                                <div class="card-body">
+                                                   <div class="col-12" >
+                                                   <h3>Nəzərdən keçirən: SƏTƏM nümayəndəsi</h3>
+                                                   <p>(Mən SƏTƏM nümayəndəsi, Menecer və ya onu əvəz edən şəxs tərəfindən təsdiq edilən əvvəlcədən olunmalı bütün ümumi qabaqlayıcı tədbirlər imzaladığım zaman yerindədir. İşə icazə vərəqsi İşə icazələrin qeydiyyatı jürnalında qeydiyyatdan keçib.)</p>
+                                                   </div>
+                                                   <div class="col-12">
+                                                      <div class="form-group row">
+                                                         <label  class="col-1 col-form-label mr-0">Ad, Soyad</label>
+                                                         <div class="col-3">
+                                                            <select class="form-control selectpicker" data-size="7" data-live-search="true" type="text">
+                                                               <option value="1" selected="selected">Vüqar Məmmədov</option>
+                                                               <option value="2">Araz Bağırov</option>
+                                                               <option value="3">Səma İbrahimova</option>
+                                                               <option value="4">Nurlan Məmmədov</option>
+                                                              </select>
+                                                         </div>
+
+                                                         <label  class="col-1 col-form-label mr-0">İmza</label>
+                                                         <div class="col-7">
+                                                            <div class="col-2">
+                                                               <input class="form-control cursor-pointer" type="checkbox" value="" />
+                                                            </div>
+                                                             <div class="col-6">
+                                                               <input class="form-control" disabled="disabled" type="text" value="Vüqar Məmmədov" />
+                                                             </div>
+                                                             <div class="col-4">
+                                                                <input class="form-control" type="datetime-local" value="" id="example-datetime-local-input">
+                                                             </div>
+                                                             
+                                                         </div>
                                                       </div>
                                                    </div>
                                                 </div>
                                              </div>
-                                             <div class="col-12" ><hr></div>
-
-                                             <div class="card-body">
-                                                <div class="col-12" >
-                                                <h3>İcazə verən: Menecer və ya onu əvəz edən şəxs</h3>
-                                                <p>(Mən Menecer və ya onu əvəz edən şçəxs təsdiq edirəm ki, bütün təhlükələr müəyyən olunub və bütün təyin edilmiş qabaqlayıcı tədbirlər həyata keçirilmişdir. İndi bu İşə icazə vərəqsi ilə tələb olunan işi təhlükəsiz icra etmək olar.)</p>
-                                                </div>
-                                                <div class="col-12">
-                                                   <div class="form-group row">
-                                                      <label  class="col-1 col-form-label">Ad, Soyad</label>
-                                                      <div class="col-5">
-                                                         <input class="form-control input-bottom-line" type="text" value="" />
-                                                      </div>
-
-                                                      <label  class="col-1 col-form-label">İmza</label>
-                                                      <div class="col-5">
-                                                         <input class="form-control input-bottom-line" type="text" readonly="readonly" value="" />
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="col-12" ><hr></div>
-
-                                             <div class="card-body">
-                                                <div class="col-12" >
-                                                <h3>Nəzərdən keçirən: SƏTƏM nümayəndəsi</h3>
-                                                <p>(Mən SƏTƏM nümayəndəsi, Menecer və ya onu əvəz edən şəxs tərəfindən təsdiq edilən əvvəlcədən olunmalı bütün ümumi qabaqlayıcı tədbirlər imzaladığım zaman yerindədir. İşə icazə vərəqsi İşə icazələrin qeydiyyatı jürnalında qeydiyyatdan keçib.)</p>
-                                                </div>
-                                                <div class="col-12">
-                                                   <div class="form-group row">
-                                                      <label  class="col-1 col-form-label">Ad, Soyad</label>
-                                                      <div class="col-5">
-                                                         <input class="form-control input-bottom-line" type="text" value="" />
-                                                      </div>
-
-                                                      <label  class="col-1 col-form-label">İmza</label>
-                                                      <div class="col-5">
-                                                         <input class="form-control input-bottom-line" type="text" readonly="readonly" value="" />
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
                                           </div>
                                           <!-- end::5 -->
                                           <!-- begin::6 -->
@@ -1890,19 +1932,34 @@
                                                 </div>
                                                 <div class="col-12">
                                                    <div class="form-group row">
-                                                      <label  class="col-1 col-form-label">Ad, Soyad</label>
-                                                      <div class="col-5">
-                                                         <input class="form-control input-bottom-line" type="text" value="" />
+                                                      <label  class="col-1 col-form-label mr-0">Ad, Soyad</label>
+                                                      <div class="col-3">
+                                                         <select class="form-control selectpicker" data-size="7" data-live-search="true" type="text">
+                                                            <option value="1">Vüqar Məmmədov</option>
+                                                            <option value="2" selected="selected">Araz Bağırov</option>
+                                                            <option value="3">Səma İbrahimova</option>
+                                                            <option value="4">Nurlan Məmmədov</option>
+                                                           </select>
                                                       </div>
 
-                                                      <label  class="col-1 col-form-label">İmza</label>
-                                                      <div class="col-5">
-                                                         <input class="form-control input-bottom-line" type="checkbox" readonly="readonly" value="" />
+                                                      <label  class="col-1 col-form-label mr-0">İmza</label>
+                                                      <div class="col-7">
+                                                         <div class="col-2">
+                                                            <input class="form-control cursor-pointer" disabled="disabled" type="checkbox" checked="checked" value="" />
+                                                         </div>
+                                                          <div class="col-6">
+                                                            <input class="form-control" disabled="disabled" type="text" value="Araz Bağırov" />
+                                                          </div>
+                                                          <div class="col-4">
+                                                             <input class="form-control" type="datetime-local" disabled="disabled" value="2021-03-19T13:45:00" id="example-datetime-local-input">
+                                                          </div>
+                                                          
                                                       </div>
                                                    </div>
                                                 </div>
                                              </div>
-                                             <hr>
+
+                                             <div class="col-12" ><hr></div>
 
                                              <div class="card-body">
                                                 <div class="col-12" >
@@ -1911,19 +1968,34 @@
                                                 </div>
                                                 <div class="col-12">
                                                    <div class="form-group row">
-                                                      <label  class="col-1 col-form-label">Ad, Soyad</label>
-                                                      <div class="col-5">
-                                                         <input class="form-control input-bottom-line" type="text" value="" />
+                                                      <label  class="col-1 col-form-label mr-0">Ad, Soyad</label>
+                                                      <div class="col-3">
+                                                         <select class="form-control selectpicker" data-size="7" data-live-search="true" type="text">
+                                                            <option value="1">Vüqar Məmmədov</option>
+                                                            <option value="2">Araz Bağırov</option>
+                                                            <option value="3">Səma İbrahimova</option>
+                                                            <option value="4" selected="selected">Nurlan Məmmədov</option>
+                                                           </select>
                                                       </div>
 
-                                                      <label  class="col-1 col-form-label">İmza</label>
-                                                      <div class="col-5">
-                                                         <input class="form-control input-bottom-line" type="checkbox" readonly="readonly" value="" />
+                                                      <label  class="col-1 col-form-label mr-0">İmza</label>
+                                                      <div class="col-7">
+                                                         <div class="col-2">
+                                                            <input class="form-control cursor-pointer" disabled="disabled" type="checkbox" checked="checked" value="" />
+                                                         </div>
+                                                          <div class="col-6">
+                                                            <input class="form-control" disabled="disabled" type="text" value="Nurlan Məmmədov" />
+                                                          </div>
+                                                          <div class="col-4">
+                                                             <input class="form-control" type="datetime-local" disabled="disabled" value="2021-03-19T13:45:00" id="example-datetime-local-input">
+                                                          </div>
+                                                          
                                                       </div>
                                                    </div>
                                                 </div>
                                              </div>
-                                             <hr>
+                                             
+                                             <div class="col-12" ><hr></div>
 
                                              <div class="card-body">
                                                 <div class="col-12" >
@@ -1932,14 +2004,28 @@
                                                 </div>
                                                 <div class="col-12">
                                                    <div class="form-group row">
-                                                      <label  class="col-1 col-form-label">Ad, Soyad</label>
-                                                      <div class="col-5">
-                                                         <input class="form-control input-bottom-line" type="text" value="" />
+                                                      <label  class="col-1 col-form-label mr-0">Ad, Soyad</label>
+                                                      <div class="col-3">
+                                                         <select class="form-control selectpicker" data-size="7" data-live-search="true" type="text">
+                                                            <option value="1" selected="selected">Vüqar Məmmədov</option>
+                                                            <option value="2">Araz Bağırov</option>
+                                                            <option value="3">Səma İbrahimova</option>
+                                                            <option value="4">Nurlan Məmmədov</option>
+                                                           </select>
                                                       </div>
 
-                                                      <label  class="col-1 col-form-label">İmza</label>
-                                                      <div class="col-5">
-                                                         <input class="form-control input-bottom-line" type="checkbox" readonly="readonly" value="" />
+                                                      <label  class="col-1 col-form-label mr-0">İmza</label>
+                                                      <div class="col-7">
+                                                         <div class="col-2">
+                                                            <input class="form-control cursor-pointer" type="checkbox" value="" />
+                                                         </div>
+                                                          <div class="col-6">
+                                                            <input class="form-control" disabled="disabled" type="text" value="Vüqar Məmmədov" />
+                                                          </div>
+                                                          <div class="col-4">
+                                                             <input class="form-control" type="datetime-local" value="2021-03-19T13:45:00" id="example-datetime-local-input">
+                                                          </div>
+                                                          
                                                       </div>
                                                    </div>
                                                 </div>
@@ -2021,7 +2107,7 @@
                                                    <h3 class="m-0" >Ləğv etmənin səbəbi (qısa):</h3>
                                                 </div>
                                                 <div class="col">
-                                                      <input class="form-control input-bottom-line" type="checkbox" readonly="readonly" value="" />
+                                                      <input class="form-control cursor-pointer" type="checkbox" readonly="readonly" value="" />
                                                 </div>
                                              </div>
                                              <div class="col-12" ><hr></div>
@@ -2033,12 +2119,17 @@
                                                    <div class="form-group row">
                                                       <label  class="col-1 col-form-label">Ad, Soyad</label>
                                                       <div class="col-5">
-                                                         <input class="form-control input-bottom-line" type="text" value="" />
+                                                         <select class="form-control selectpicker" data-size="7" data-live-search="true" type="text">
+                                                            <option value="1" selected="selected">Vüqar Məmmədov</option>
+                                                            <option value="2">Araz Bağırov</option>
+                                                            <option value="3">Səma İbrahimova</option>
+                                                            <option value="4">Nurlan Məmmədov</option>
+                                                           </select>
                                                       </div>
 
                                                       <label  class="col-1 col-form-label">İmza</label>
                                                       <div class="col-5">
-                                                         <input class="form-control input-bottom-line" type="checkbox" readonly="readonly" value="" />
+                                                         <input class="form-control cursor-pointer" type="checkbox" readonly="readonly" value="" />
                                                       </div>
                                                    </div>
                                                 </div>
@@ -2053,12 +2144,17 @@
                                                    <div class="form-group row">
                                                       <label  class="col-1 col-form-label">Ad, Soyad</label>
                                                       <div class="col-5">
-                                                         <input class="form-control input-bottom-line" type="text" value="" />
+                                                         <select class="form-control selectpicker" data-size="7" data-live-search="true" type="text">
+                                                            <option value="1" selected="selected">Vüqar Məmmədov</option>
+                                                            <option value="2">Araz Bağırov</option>
+                                                            <option value="3">Səma İbrahimova</option>
+                                                            <option value="4">Nurlan Məmmədov</option>
+                                                           </select>
                                                       </div>
 
                                                       <label  class="col-1 col-form-label">İmza</label>
                                                       <div class="col-5">
-                                                         <input class="form-control input-bottom-line" type="checkbox" readonly="readonly" value="" />
+                                                         <input class="form-control cursor-pointer" type="checkbox" readonly="readonly" value="" />
                                                       </div>
                                                    </div>
                                                 </div>
@@ -2077,7 +2173,7 @@
                                  <!-- end::card-body -->
                                  <div class="card-footer blue-bg">
                                      <div class="card-title" data-toggle="collapse" data-target="#collapse2">
-                                       <h5>Orjinal sənəd "AzerGold" QSC-nin SƏTƏM şöbəsində, İlk nüsxə Məsul şəxs iş icraçısında (iş sahəsində), İkinci nusxə Menecerdə saxlanılmalıdır</h5>
+                                       <h3 class="card-label">Orjinal sənəd "AzerGold" QSC-nin SƏTƏM şöbəsində, İlk nüsxə Məsul şəxs iş icraçısında (iş sahəsində), İkinci nusxə Menecerdə saxlanılmalıdır</h3>
                                     </div>
                                  </div>
                               </div>
@@ -2123,7 +2219,7 @@
       <div id="kt_quick_user" class="offcanvas offcanvas-right p-10">
          <!--begin::Header-->
          <div class="offcanvas-header d-flex align-items-center justify-content-between pb-5">
-            <h3 class="font-weight-bold m-0">User Profile 
+            <h3 class="font-weight-bold m-0">İstifadəçi Profili 
                <small class="text-muted font-size-sm ml-2">Admin</small>
             </h3>
             <a href="#" class="btn btn-xs btn-icon btn-light btn-hover-primary" id="kt_quick_user_close">
@@ -2140,8 +2236,8 @@
                   <i class="symbol-badge bg-success"></i>
                </div>
                <div class="d-flex flex-column">
-                  <a href="#" class="font-weight-bold font-size-h5 text-dark-75 text-hover-primary">James Jones</a>
-                  <div class="text-muted mt-1">Application Developer</div>
+                  <a href="#" class="font-weight-bold font-size-h5 text-dark-75 text-hover-primary">Vüqar Məmmədov</a>
+                  <div class="text-muted mt-1">SƏTƏM Mühəndisi</div>
                   <div class="navi mt-2">
                      <a href="#" class="navi-item">
                         <span class="navi-link p-0 pb-2">
@@ -2158,10 +2254,10 @@
                                  <!--end::Svg Icon-->
                               </span>
                            </span>
-                           <span class="navi-text text-muted text-hover-primary">jj@azerigold.com</span>
+                           <span class="navi-text text-muted text-hover-primary">vm@azerigold.com</span>
                         </span>
                      </a>
-                     <a href="#" class="btn btn-sm btn-light-primary font-weight-bolder py-2 px-5">Sign Out</a>
+                     <a href="#" class="btn btn-sm btn-light-primary font-weight-bolder py-2 px-5">Çıxış</a>
                   </div>
                </div>
             </div>
@@ -2190,9 +2286,9 @@
                         </div>
                      </div>
                      <div class="navi-text">
-                        <div class="font-weight-bold">My Profile</div>
-                        <div class="text-muted">Account settings and more 
-                           <span class="label label-light-danger label-inline font-weight-bold">update</span>
+                        <div class="font-weight-bold">Mənim Profilim</div>
+                        <div class="text-muted">İstifadəçi parametrləri və daha çox 
+                           <span class="label label-light-danger label-inline font-weight-bold">yenilə</span>
                         </div>
                      </div>
                   </div>
