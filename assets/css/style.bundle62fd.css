@@ -52439,7 +52439,7 @@ code{
     height:12px
 }
 .checkbox>span{
-    background-color:#ebedf3;
+    background-color:#CDCFD5 /*#ebedf3*/;
     border:1px solid transparent
 }
 .checkbox>input:focus~span{
@@ -71720,4 +71720,8 @@ margin-right: 0px !important;
 .clickable-row:hover {
     background: #f3f6f9!important;
     cursor: pointer;
+}
+
+.checkbox-sm {
+    width: 25px;
 }
