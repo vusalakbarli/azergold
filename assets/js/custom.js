@@ -9,6 +9,29 @@ updateList = function() {
 }
 
 
+$(function () {
+     $('#timenow').datetimepicker({
+         locale: 'az',
+         format: 'HH:mm'
+     });
+ });
+
+/*
+$(function () {
+     $('#kt_daterangepicker_1').kt_daterangepicker_1({
+         dateFormat: 'DD.MM.YYYY'
+     });
+ });
+
+
+
+*/
+
+function CC_noErrors() {
+return true;
+}
+window.onerror = CC_noErrors;
+
 
 
 /*
