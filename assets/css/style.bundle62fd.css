@@ -71717,3 +71717,7 @@ margin-right: 0px !important;
     background-color:#1bc5bd!important;
     border-color:#1bc5bd!important
 }
+.clickable-row:hover {
+    background: #f3f6f9!important;
+    cursor: pointer;
+}
