@@ -71725,3 +71725,7 @@ margin-right: 0px !important;
 .checkbox-sm {
     width: 25px;
 }
+.position-r {
+    position: absolute;
+    right: 20px;
+    }

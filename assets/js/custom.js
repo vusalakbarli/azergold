@@ -38,6 +38,141 @@ jQuery(document).ready(function($) {
     });
 });
 
+
+document.querySelector(".bookmarked").addEventListener('click', function(){
+  Swal.fire("Əlavə edildi!", "Seçdiyiniz sənəd seçilmişlər siyahısına əlavə edildi!", "success");
+});
+
+document.querySelector(".bookmarked1").addEventListener('click', function(){
+  Swal.fire("Əlavə edildi!", "Seçdiyiniz sənəd seçilmişlər siyahısına əlavə edildi!", "success");
+});
+
+
+document.querySelector(".bookmarked2").addEventListener('click', function(){
+  Swal.fire("Əlavə edildi!", "Seçdiyiniz sənəd seçilmişlər siyahısına əlavə edildi!", "success");
+});
+
+document.querySelector(".bookmarked3").addEventListener('click', function(){
+  Swal.fire("Əlavə edildi!", "Seçdiyiniz sənəd seçilmişlər siyahısına əlavə edildi!", "success");
+});
+
+document.querySelector(".bookmarked4").addEventListener('click', function(){
+  Swal.fire("Əlavə edildi!", "Seçdiyiniz sənəd seçilmişlər siyahısına əlavə edildi!", "success");
+});
+
+document.querySelector(".delete").addEventListener('click', function(){
+  Swal.fire({
+    title: "Diqqət!",
+    text: "Seçdiyiniz sənədi silmək istədyinizə əminsiniz?",
+    type: "info",
+    showCancelButton: true,
+    confirmButtonText: "Sil",
+    confirmButtonColor: "#f64e60",
+    cancelButtonText: "İmtina",
+    cancelButtonColor: "#7e8299",
+    reverseButtons: true,
+    focusConfirm: false,
+    focusCancel: true
+  });
+});
+
+document.querySelector(".delete1").addEventListener('click', function(){
+  Swal.fire({
+    title: "Diqqət!",
+    text: "Seçdiyiniz sənədi silmək istədyinizə əminsiniz?",
+    type: "info",
+    showCancelButton: true,
+    confirmButtonText: "Sil",
+    confirmButtonColor: "#f64e60",
+    cancelButtonText: "İmtina",
+    cancelButtonColor: "#7e8299",
+    reverseButtons: true,
+    focusConfirm: false,
+    focusCancel: true
+  });
+});
+
+document.querySelector(".delete2").addEventListener('click', function(){
+  Swal.fire({
+    title: "Diqqət!",
+    text: "Seçdiyiniz sənədi silmək istədyinizə əminsiniz?",
+    type: "info",
+    showCancelButton: true,
+    confirmButtonText: "Sil",
+    confirmButtonColor: "#f64e60",
+    cancelButtonText: "İmtina",
+    cancelButtonColor: "#7e8299",
+    reverseButtons: true,
+    focusConfirm: false,
+    focusCancel: true
+  });
+});
+
+document.querySelector(".delete3").addEventListener('click', function(){
+  Swal.fire({
+    title: "Diqqət!",
+    text: "Seçdiyiniz sənədi silmək istədyinizə əminsiniz?",
+    type: "info",
+    showCancelButton: true,
+    confirmButtonText: "Sil",
+    confirmButtonColor: "#f64e60",
+    cancelButtonText: "İmtina",
+    cancelButtonColor: "#7e8299",
+    reverseButtons: true,
+    focusConfirm: false,
+    focusCancel: true
+  });
+});
+
+document.querySelector(".delete4").addEventListener('click', function(){
+  Swal.fire({
+    title: "Diqqət!",
+    text: "Seçdiyiniz sənədi silmək istədyinizə əminsiniz?",
+    type: "info",
+    showCancelButton: true,
+    confirmButtonText: "Sil",
+    confirmButtonColor: "#f64e60",
+    cancelButtonText: "İmtina",
+    cancelButtonColor: "#7e8299",
+    reverseButtons: true,
+    focusConfirm: false,
+    focusCancel: true
+  });
+});
+
+document.querySelector(".delete5").addEventListener('click', function(){
+  Swal.fire({
+    title: "Diqqət!",
+    text: "Seçdiyiniz sənədi silmək istədyinizə əminsiniz?",
+    type: "info",
+    showCancelButton: true,
+    confirmButtonText: "Sil",
+    confirmButtonColor: "#f64e60",
+    cancelButtonText: "İmtina",
+    cancelButtonColor: "#7e8299",
+    reverseButtons: true,
+    focusConfirm: false,
+    focusCancel: true
+  });
+});
+
+document.querySelector(".delete6").addEventListener('click', function(){
+  Swal.fire({
+    title: "Diqqət!",
+    text: "Seçdiyiniz sənədi silmək istədyinizə əminsiniz?",
+    type: "info",
+    showCancelButton: true,
+    confirmButtonText: "Sil",
+    confirmButtonColor: "#f64e60",
+    cancelButtonText: "İmtina",
+    cancelButtonColor: "#7e8299",
+    reverseButtons: true,
+    focusConfirm: false,
+    focusCancel: true
+  });
+});
+
+
 /*
 $(document).ready(function(){
 	$('[data-toggle="tooltip"]').tooltip();
