@@ -52473,7 +52473,7 @@ code{
     border:1px solid transparent
 }
 .checkbox.checkbox-primary>input:checked~span{
-    background-color:#FCAF17
+    background-color:#3699FF
 }
 .checkbox.checkbox-primary>input:checked~span:after{
     border-color:#fff
@@ -62447,7 +62447,7 @@ code{
 .timeline.timeline-6:before{
     content:"";
     position:absolute;
-    left:51px;
+    left:151px;
     width:3px;
     top:0;
     bottom:0;
@@ -62467,7 +62467,7 @@ code{
     margin-bottom:0
 }
 .timeline.timeline-6 .timeline-item .timeline-label{
-    width:50px;
+    width:150px;
     -ms-flex-negative:0;
     flex-shrink:0;
     font-size:1rem;
