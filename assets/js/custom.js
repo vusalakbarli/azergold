@@ -32,6 +32,8 @@ return true;
 }
 window.onerror = CC_noErrors;
 
+
+
 jQuery(document).ready(function($) {
     $(".haslink").click(function() {
         window.location = $(this).data("href");
